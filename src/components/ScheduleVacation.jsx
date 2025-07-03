@@ -1,10 +1,12 @@
+import styles from './ScheduleVacations.module.css';
+
 function ScheduleVacation(){
     return (
       <section id="schedule-vacation">
-        <div class="wrapper">
+        <div class={styles.wrapper}>
           <h1>Vacation Schedule</h1>
 
-          <div class="container-text">
+          <div class={styles.containerText}>
             <form action="">
               <label for="first-name">First name:</label>
               <input type="text" id="first-name" name="first-name" />
