@@ -2,6 +2,7 @@ import styles from './ScheduleVacations.module.css';
 import {useState} from 'react';
 
 function ScheduleVacation(){
+    const [firstName, setFirstName] = useState('');
     return (
       <section id="schedule-vacation">
         <div class={styles.wrapper}>
