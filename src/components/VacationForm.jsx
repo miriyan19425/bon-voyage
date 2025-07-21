@@ -1,14 +1,10 @@
-import styles from './ScheduleVacations.module.css';
-import {useState} from 'react';
-
-function ScheduleVacation(){
-    const [firstName, setFirstName] = useState('');
+function VacationForm(){
     return (
-      <section id="schedule-vacation">
-        <div class={styles.wrapper}>
+        <section id="schedule-vacation">
+        <div class="wrapper">
           <h1>Vacation Schedule</h1>
 
-          <div class={styles.containerText}>
+          <div class="container-text">
             <form action="">
               <label for="first-name">First name:</label>
               <input type="text" id="first-name" name="first-name" />
@@ -30,4 +26,4 @@ function ScheduleVacation(){
     );
 }
 
-export default ScheduleVacation;
+export default VacationForm;
