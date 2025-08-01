@@ -2,27 +2,25 @@ import VacationForm from "./components/VacationForm";
 
 function App() {
    return (
-        <div className="body">
-    <section id="welcome">
-      <h1>Bon Voyage!</h1>
-      <div class="home-container">
-        <div class="info">
-          <h1>Vacation Schedule</h1>
-        </div>
-      </div>
-    </section>
-
-    <div id="wrapper">
-      <VacationForm />
-
-      <section id="info-vacations">
-        <div class="vacations-info-container">
-          <div class="wrapper">
-            <h1>Vacation info</h1>
-            <ul class="info-list"></ul>
-          </div>
-        </div>
-      </section>
+      <div className="body">
+         <section id="welcome">
+            <h1>Bon Voyage!</h1>
+            <div class="home-container">
+               <div class="info">
+                  <h1>Vacation Schedule</h1>
+               </div>
+            </div>
+         </section>
+         <div id="wrapper">
+            <VacationForm />
+            <section id="info-vacations">
+               <div class="vacations-info-container">
+                  <div class="wrapper">
+                     <h1>Vacation info</h1>
+                     <ul class="info-list"></ul>
+                  </div>
+               </div>
+            </section>
 
       <section id="confirm-vacations">
         <div class="confirm-container">
