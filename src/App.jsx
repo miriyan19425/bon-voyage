@@ -21,17 +21,16 @@ function App() {
                   </div>
                </div>
             </section>
-
-      <section id="confirm-vacations">
-        <div class="confirm-container">
-          <div class="wrapper">
-            <h1>Confirm Vacation</h1>
-            <ul class="confirm-list"></ul>
-          </div>
-        </div>
-      </section>
-    </div>
-    <section id="complete-vacation">
+            <section id="confirm-vacations">
+               <div class="confirm-container">
+                  <div class="wrapper">
+                     <h1>Confirm Vacation</h1>
+                     <ul class="confirm-list"></ul>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <section id="complete-vacation">
       <div>
         <a id="ok">
           <h1 id="status"></h1>
