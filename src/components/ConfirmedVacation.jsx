@@ -1,10 +1,8 @@
-import styles from './ConfirmVacations.module.css';
-
-function ConfirmVacations(){
+function ConfirmedVacation(){
     return (
         <section id="confirm-vacations">
         <div class="confirm-container">
-          <div class={styles.wrapper}>
+          <div class="wrapper">
             <h1>Confirm Vacation</h1>
             <ul class="confirm-list"></ul>
           </div>
@@ -13,4 +11,4 @@ function ConfirmVacations(){
     );
 }
 
-export default ConfirmVacations;
+export default ConfirmedVacation;
