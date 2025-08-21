@@ -1,4 +1,4 @@
-function InfoVacations(){
+function VacationInfo(){
     return (
         <section id="info-vacations">
         <div class="vacations-info-container">
@@ -11,4 +11,4 @@ function InfoVacations(){
     );
 }
 
-export default InfoVacations;
+export default VacationInfo;
