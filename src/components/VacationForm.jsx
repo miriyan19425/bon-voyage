@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-function VacationForm(){
+function VacationForm({prepareVacation}){
     return (
         <section id="schedule-vacation">
             <div class="wrapper">
