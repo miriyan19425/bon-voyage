@@ -6,7 +6,7 @@ function VacationInfo({vacationInput}){
           <h1>Vacation info</h1>
           {
             (  
-              vacationInput.firstName === ''  
+              vacationInput.firstName === '' 
                     
             ) ||
             <ul className="info-list">
