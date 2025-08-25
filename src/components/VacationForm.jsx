@@ -1,6 +1,8 @@
 import {useState} from 'react';
 
 function VacationForm({prepareVacation}){
+    const [firstName, setFirstName] = useState('');
+    
     return (
         <section id="schedule-vacation">
             <div class="wrapper">
