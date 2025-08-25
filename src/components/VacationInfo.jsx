@@ -1,14 +1,28 @@
 function VacationInfo({vacationInput}){
-    return (
-        <section id="info-vacations">
-        <div class="vacations-info-container">
-          <div class="wrapper">
-            <h1>Vacation info</h1>
-            <ul class="info-list"></ul>
-          </div>
+  return (
+    <section id="info-vacations">
+      <div className="vacations-info-container">
+        <div className="wrapper">
+          <h1>Vacation info</h1>
+          {
+            (  
+              vacationInput.firstName === ''  
+                    
+            ) ||
+            <ul className="info-list">
+              <li className="vacation-content">
+                <article>
+                   
+                </article>
+                <button className="edit-btn">Edit</button>
+                <button className="continue-btn">Continue</button>  
+              </li>
+            </ul>
+          }
         </div>
-      </section>
-    );
+      </div>
+    </section>
+  );
 }
 
 export default VacationInfo;
