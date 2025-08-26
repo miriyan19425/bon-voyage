@@ -2,6 +2,7 @@ import {useState} from 'react';
 
 function VacationForm({prepareVacation}){
     const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
     
     return (
         <section id="schedule-vacation">
