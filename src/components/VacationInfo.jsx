@@ -7,7 +7,8 @@ function VacationInfo({vacationInput}){
           {
             (  
               vacationInput.firstName === '' &&
-              vacationInput.lastName === ''
+              vacationInput.lastName === '' &&
+              vacationInput.from === ''
                     
             ) ||
             <ul className="info-list">
