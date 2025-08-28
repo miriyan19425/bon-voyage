@@ -4,6 +4,7 @@ function VacationForm({prepareVacation}){
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [from, setFrom] = useState('');
+    const [to, setTo] = useState('');
     
     return (
         <section id="schedule-vacation">
