@@ -14,7 +14,7 @@ function VacationInfo({vacationInput}){
             <ul className="info-list">
               <li className="vacation-content">
                 <article>
-                   
+                  <h3>Name: {vacationInput.firstName} {vacationInput.lastName}</h3>  
                 </article>
                 <button className="edit-btn">Edit</button>
                 <button className="continue-btn">Continue</button>  
