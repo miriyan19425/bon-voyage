@@ -5,6 +5,8 @@ import ConfirmedVacation from "./components/ConfirmedVacation";
 import CompletedVacation from "./components/CompletedVacation";
 
 function App() {
+   const [vacationData, setVacationData] = useState({firstName: '', lastName: '', from: '', to: ''});
+   
    return (
         <div className="body">
     <section id="welcome">
