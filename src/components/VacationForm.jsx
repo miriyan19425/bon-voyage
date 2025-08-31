@@ -8,6 +8,8 @@ function VacationForm({prepareVacation}){
 
     function handleSubmit(e){
         e.preventDefault();
+
+        if (!firstName || !lastName || !from || !to) return;
     }
     
     return (
