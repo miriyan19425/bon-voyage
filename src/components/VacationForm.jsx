@@ -10,6 +10,8 @@ function VacationForm({prepareVacation}){
         e.preventDefault();
 
         if (!firstName || !lastName || !from || !to) return;
+
+        const data = {firstName, lastName, from, to};
     }
     
     return (
