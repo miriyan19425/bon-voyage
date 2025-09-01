@@ -6,6 +6,8 @@ import CompletedVacation from "./components/CompletedVacation";
 
 function App() {
    const [vacationData, setVacationData] = useState({firstName: '', lastName: '', from: '', to: ''});
+
+   function getVacationData(d) { setVacationData(d); }
    
    return (
         <div className="body">
