@@ -22,7 +22,7 @@ function App() {
 
     <div id="wrapper">
       <VacationForm prepareVacation={getVacationData}/>
-      <VacationInfo />
+      <VacationInfo vacationInput={vacationData}/>
       <ConfirmedVacation />
     </div>
     <CompletedVacation />
