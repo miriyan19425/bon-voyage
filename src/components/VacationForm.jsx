@@ -12,6 +12,8 @@ function VacationForm({prepareVacation}){
         if (!firstName || !lastName || !from || !to) return;
 
         const data = {firstName, lastName, from, to};
+
+        prepareVacation(data);
     }
     
     return (
