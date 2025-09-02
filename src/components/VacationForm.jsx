@@ -14,6 +14,7 @@ function VacationForm({prepareVacation}){
         const data = {firstName, lastName, from, to};
 
         prepareVacation(data);
+        setFirstName("");
     }
     
     return (
