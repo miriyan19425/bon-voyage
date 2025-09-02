@@ -21,7 +21,7 @@ function App() {
     </section>
 
     <div id="wrapper">
-      <VacationForm />
+      <VacationForm prepareVacation={getVacationData}/>
       <VacationInfo />
       <ConfirmedVacation />
     </div>
