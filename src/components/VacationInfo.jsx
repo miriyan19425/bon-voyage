@@ -16,6 +16,7 @@ function VacationInfo({vacationInput}){
                 <article>
                   <h3>Name: {vacationInput.firstName} {vacationInput.lastName}</h3>
                   <p>From date: {vacationInput.from}</p>
+                  <p>To date: {vacationInput.to}</p>
                 </article>
                 <button className="edit-btn">Edit</button>
                 <button className="continue-btn">Continue</button>  
