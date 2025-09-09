@@ -17,6 +17,7 @@ function VacationForm({prepareVacation}){
         setFirstName("");
         setLastName("");
         setFrom("");
+        setTo("");
     }
     
     return (
