@@ -25,7 +25,7 @@ function VacationForm({prepareVacation}){
             <div class="wrapper">
                 <h1>Vacation Schedule</h1>
                 <div class="container-text">
-                    <form action="">
+                    <form onSubmit={handleSubmit}>
                         <label for="first-name">First name:</label>
                         <input type="text" id="first-name" name="first-name" />
 
