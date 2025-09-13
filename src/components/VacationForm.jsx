@@ -26,17 +26,17 @@ function VacationForm({prepareVacation}){
                 <h1>Vacation Schedule</h1>
                 <div class="container-text">
                     <form onSubmit={handleSubmit}>
-                        <label for="first-name">First name:</label>
-                        <input type="text" id="first-name" name="first-name" />
+                        <label htmlFor="first-name">First name:</label>
+                        <input type="text" id="first-name" />
 
-                        <label for="last-name">Last name:</label>
-                        <input type="text" id="last-name" name="last-name" />
+                        <label htmlFor="last-name">Last name:</label>
+                        <input type="text" id="last-name" />
 
-                        <label for="from-date">From Date:</label>
-                        <input type="date" id="from-date" name="from-date" />
+                        <label htmlFor="from-date">From Date:</label>
+                        <input type="date" id="from-date" />
 
-                        <label for="to-date">To Date:</label>
-                        <input type="date" id="to-date" name="to-date" />
+                        <label htmlFor="to-date">To Date:</label>
+                        <input type="date" id="to-date" />
 
                         <button id="next-btn" type="submit">Next</button>
                     </form>
