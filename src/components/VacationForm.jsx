@@ -38,7 +38,7 @@ function VacationForm({prepareVacation}){
                         <label htmlFor="to-date">To Date:</label>
                         <input type="date" id="to-date" />
 
-                        <button id="next-btn" type="submit">Next</button>
+                        <button id="next-btn">Next</button>
                     </form>
                 </div>
             </div>
