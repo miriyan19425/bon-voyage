@@ -6,7 +6,7 @@ import ConfirmedVacation from "./components/ConfirmedVacation";
 import CompletedVacation from "./components/CompletedVacation";
 
 function App() {
-   const [vacationData, setVacationData] = useState({firstName: '', lastName: '', from: '', to: ''});
+   const [vacationData, setVacationData] = useState( {firstName: '', lastName: '', from: '', to: ''} );
 
    function getVacationData(d) { setVacationData(d); }
    
