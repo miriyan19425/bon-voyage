@@ -6,6 +6,8 @@ function VacationForm({prepareVacation}){
     const [from, setFrom] = useState('');
     const [to, setTo] = useState('');
 
+    useEffect();
+
     function handleSubmit(e){
         e.preventDefault();
 
