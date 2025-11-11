@@ -9,6 +9,8 @@ function App() {
    const [vacationData, setVacationData] = useState( {firstName: '', lastName: '', from: '', to: ''} );
 
    function getVacationData(d) { setVacationData(d); }
+
+   function getDataToEdit(){}
    
    return (
       <div className="body">
@@ -19,7 +21,7 @@ function App() {
             </div>
          </section>
          <div id="wrapper">
-            <VacationForm prepareVacation={getVacationData}/>
+            <VacationForm prepareVacation={getVacationData} vacationEdit={getDataToEdit}/>
             <VacationInfo vacationInput={vacationData}/>
             <ConfirmedVacation />
          </div>
