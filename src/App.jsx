@@ -7,6 +7,7 @@ import CompletedVacation from "./components/CompletedVacation";
 
 function App() {
    const [vacationData, setVacationData] = useState( {firstName: '', lastName: '', from: '', to: ''} );
+   const [dataToEdit, setDataToEdit] = useState({});
 
    function getVacationData(d) { setVacationData(d); }
 
@@ -21,7 +22,7 @@ function App() {
             </div>
          </section>
          <div id="wrapper">
-            <VacationForm prepareVacation={getVacationData} vacationEdit={getDataToEdit}/>
+            <VacationForm prepareVacation={getVacationData} vacationEdit={dataToEdit}/>
             <VacationInfo vacationInput={vacationData}/>
             <ConfirmedVacation />
          </div>
