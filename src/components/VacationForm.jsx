@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-function VacationForm({prepareVacation}){
+function VacationForm({prepareVacation, vacationEdit}){
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [from, setFrom] = useState('');
