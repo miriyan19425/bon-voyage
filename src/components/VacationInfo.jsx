@@ -18,7 +18,7 @@ function VacationInfo({vacationInput}){
                   <p>From date: {vacationInput.from}</p>
                   <p>To date: {vacationInput.to}</p>
                 </article>
-                <button className="edit-btn">Edit</button>
+                <button className="edit-btn" onClick={onEdit} >Edit</button>
                 <button className="continue-btn">Continue</button>  
               </li>
             </ul>
