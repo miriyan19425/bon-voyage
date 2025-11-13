@@ -1,4 +1,4 @@
-function VacationInfo({vacationInput}){
+function VacationInfo({vacationInput, onEdit}){
   return (
     <section id="info-vacations">
       <div className="vacations-info-container">
